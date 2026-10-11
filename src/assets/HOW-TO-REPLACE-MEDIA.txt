@@ -1,0 +1,25 @@
+Photos
+------
+src/assets/images/cctv        camera and installation photos
+src/assets/images/products    product photos
+src/assets/images/projects    project gallery photos
+src/assets/images/customers   customer photos
+public/logo.jpeg            shop logo shown on the site
+public/favicon.jpeg         same logo used as the browser tab icon
+public/favicon.ico          same logo again, so the browser does not keep asking for a missing .ico file
+
+Videos
+------
+src/assets/videos             mp4 files
+
+After you add a file, import it in the matching file under src/data
+and set the image or src field. Each data file has a short comment showing how.
+
+Shop details (phone, WhatsApp, email, address, hours)
+------------------------------------------------------
+src/data/business.js
+
+WhatsApp, phone call, enquiry and directions actions
+------------------------------------------------------
+src/utils/contactActions.js
+Look for the TODO comments. The buttons already call those functions.

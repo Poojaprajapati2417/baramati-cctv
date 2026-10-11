@@ -1,0 +1,8 @@
+Put project and customer video files in this folder (.mp4).
+
+Then open src/data/projects.js or src/data/testimonials.js,
+import the file, and set the src field.
+
+Example:
+  import shopVideo from "../assets/videos/shop-install.mp4";
+  src: shopVideo
